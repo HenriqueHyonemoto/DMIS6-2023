@@ -10,12 +10,17 @@ import android.widget.TextView;
 
 import java.util.Random;
 
+
 public class MainActivity extends AppCompatActivity {
     @Override
+
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
+    private int sucesso =0;
+    private int falha =0;
+
     public void sorteiaFrase(View view){
         //referencia a elemento da interface
         TextView txtFrase=findViewById(R.id.textFrase);
@@ -41,9 +46,33 @@ public class MainActivity extends AppCompatActivity {
 
         EditText txtEntrada=findViewById(R.id.editTextFrase);
 
+        //AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 
-        int sucesso =0;
-        int falha =0;
+        TextView maquinares=findViewById(R.id.maquinaVal);
+
+        //vetor de frases
+        String[] jogadamaquina={
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6"
+        };
+
+
+        int j= new Random().nextInt(6);
+
+        //adaptar o textView para mostrar o resultado
+        String MaquinaSorteada = jogadamaquina[j];
+        maquinares.setText("Jogada da Maquina: "+jogadamaquina[j]);
+
+        //AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
+
+
+
+
         TextView txtRes=findViewById(R.id.textViewResultado);
         if(txtEntrada.getText().toString().trim().isEmpty()){
             txtRes.setText("Você não digitou um número!");
@@ -57,13 +86,15 @@ public class MainActivity extends AppCompatActivity {
             } else {
                 txtRes.setText("Você não passou =(");
                 txtRes.setTextColor(Color.RED);
+            }
+            if (fraseSorteada.equalsIgnoreCase(MaquinaSorteada)) {
                 falha++;
             }
         }
         TextView sucessamt = findViewById(R.id.sucessCount);
-        sucessamt.setText("Sucessos:" +String.valueOf(sucesso)); // Converta 'sucesso' para String
+        sucessamt.setText("Seus Pontos:" +String.valueOf(sucesso)); // Converta 'sucesso' para String
         TextView failsamt = findViewById(R.id.failsCount);
-        failsamt.setText("Falhas:" + String.valueOf(falha)); // Converta 'falha' para String
+        failsamt.setText("Pontos da Maquina:" + String.valueOf(falha)); // Converta 'falha' para String
     }
 }
 
