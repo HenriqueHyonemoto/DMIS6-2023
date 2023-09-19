@@ -1,47 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="5a163e52-2112-4193-b7ab-49d3632132dd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/AulaSorte1/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AulaSorte1/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AulaSorte1/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AulaSorte1/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AulaSorte1/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AulaSorte1/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AulaSorte1/app/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AulaSorte1/app/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AulaSorte1/app/proguard-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AulaSorte1/app/src/androidTest/java/com/example/aulasorte1/ExampleInstrumentedTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AulaSorte1/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AulaSorte1/app/src/main/java/com/example/aulasorte1/MainActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AulaSorte1/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AulaSorte1/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AulaSorte1/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AulaSorte1/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AulaSorte1/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AulaSorte1/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AulaSorte1/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AulaSorte1/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AulaSorte1/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AulaSorte1/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AulaSorte1/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AulaSorte1/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AulaSorte1/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AulaSorte1/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AulaSorte1/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AulaSorte1/app/src/main/res/values/colors.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AulaSorte1/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AulaSorte1/app/src/main/res/values/styles.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AulaSorte1/app/src/test/java/com/example/aulasorte1/ExampleUnitTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AulaSorte1/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AulaSorte1/gradle.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AulaSorte1/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AulaSorte1/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AulaSorte1/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AulaSorte1/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AulaSorte1/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/H_Soma/app/src/main/java/com/example/h_soma/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/H_Soma/app/src/main/java/com/example/h_soma/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/H_Soma/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/H_Soma/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AulaSorte1/app/src/main/java/com/example/aulasorte1/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/AulaSorte1/app/src/main/java/com/example/aulasorte1/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AulaSorte1/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/AulaSorte1/app/src/main/res/layout/activity_main.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -75,8 +42,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="546" />
-    <option name="y" value="148" />
+    <option name="x" value="303" />
+    <option name="y" value="165" />
     <option name="width" value="1598" />
     <option name="height" value="940" />
   </component>
@@ -169,6 +136,9 @@
       </method>
     </configuration>
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="5a163e52-2112-4193-b7ab-49d3632132dd" name="Default Changelist" comment="" />
@@ -180,8 +150,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="546" y="148" width="1598" height="940" extended-state="0" />
-    <editor active="true" />
+    <frame x="303" y="165" width="1598" height="940" extended-state="0" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" visible="true" weight="0.32964888" />
       <window_info id="Structure" side_tool="true" />
