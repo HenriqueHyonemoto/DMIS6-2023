@@ -55,19 +55,25 @@ public class MainActivity extends AppCompatActivity {
             pontosMaquina=0;
             ImageView imgPlayer1 = findViewById(R.id.umDedoImg);
             imgPlayer1.setEnabled(false);
-           // imgPlayer1.setImageResource(R.drawable.zerodedos);
+            imgPlayer1.setImageResource(R.drawable.zerodedos);
+            imgPlayer1.layout(98,98,98,98);
+            imgPlayer1.setMaxHeight(98);
             ImageView imgPlayer2 = findViewById(R.id.doisDedoImg);
             imgPlayer2.setEnabled(false);
-            //imgPlayer2.setImageResource(R.drawable.zerodedos);
+            imgPlayer2.setImageResource(R.drawable.zerodedos);
+            imgPlayer2.layout(98,98,98,98);
             ImageView imgPlayer3 = findViewById(R.id.tresDedoImg);
             imgPlayer3.setEnabled(false);
-            //imgPlayer3.setImageResource(R.drawable.zerodedos);
+            imgPlayer3.setImageResource(R.drawable.zerodedos);
+            imgPlayer3.layout(98,98,98,98);
             ImageView imgPlayer4 = findViewById(R.id.quatroDedoImg);
             imgPlayer4.setEnabled(false);
-            //imgPlayer4.setImageResource(R.drawable.zerodedos);
+            imgPlayer4.setImageResource(R.drawable.zerodedos);
+            imgPlayer4.layout(98,98,98,98);
             ImageView imgPlayer5 = findViewById(R.id.cincoDedoImg);
             imgPlayer5.setEnabled(false);
-            //imgPlayer5.setImageResource(R.drawable.zerodedos);
+            imgPlayer5.setImageResource(R.drawable.zerodedos);
+            imgPlayer5.layout(98,98,98,98);
 
         }
         TextView txtRodada = findViewById(R.id.rodada);
