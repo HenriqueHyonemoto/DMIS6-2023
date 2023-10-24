@@ -26,14 +26,50 @@
         android:id="@+id/editTextRoupa"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:layout_marginRight="16dp"
         android:ems="10"
         android:hint="Sua Roupa"
         android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:text="Escolha a Cor" />
+
+    <CheckBox
+        android:id="@+id/checkBoxBranco"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:text="Branco" />
+
+    <CheckBox
+        android:id="@+id/checkBoxVerde"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:text="Verde" />
+
+    <CheckBox
+        android:id="@+id/checkBoxAzul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:text="Azul" />
 
     <Button
         android:id="@+id/button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
         android:onClick="mudaTexto"
         android:text="Selecionar" />
 
@@ -41,6 +77,18 @@
         android:id="@+id/textViewEscolha"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="18sp" />
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:textSize="18sp"
+        tools:text="Sua Escolha:" />
+
+    <TextView
+        android:id="@+id/textViewCores"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:textSize="18sp"
+        tools:text="Sua Cor:" />
 
 </LinearLayout>
