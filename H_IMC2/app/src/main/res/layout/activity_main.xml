@@ -82,7 +82,7 @@
         android:text="Seu peso:" />
 
     <TextView
-        android:id="@+id/txtTextViewResultadoIMC"
+        android:id="@+id/txtTextViewResultadoPesoIdeal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Seu peso Ideal:" />
@@ -92,5 +92,11 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Analise:" />
+
+    <ImageView
+        android:id="@+id/imgImc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/imc" />
 
 </LinearLayout>
