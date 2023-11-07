@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity" >
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="verificaEnabled"
+        android:text="Habilitar" />
+
+    <TextView
+        android:id="@+id/txtTextViewResultado1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Resultado Switch" />
+
+    <EditText
+        android:id="@+id/campoPeso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:enabled="false"
+        android:hint="Peso"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/campoAltura"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:enabled="false"
+        android:hint="Altura"
+        android:inputType="number|numberDecimal" />
+
+    <RadioGroup
+        android:id="@+id/rbSexo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/rbM"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:enabled="true"
+            android:text="Masculino" />
+
+        <RadioButton
+            android:id="@+id/rbF"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:enabled="true"
+            android:text="Feminino" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="verifica"
+        android:text="Calcular" />
+
+    <TextView
+        android:id="@+id/txtTextViewResultadoSexo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sexo:" />
+
+    <TextView
+        android:id="@+id/txtTextViewResultadoPeso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Seu peso:" />
+
+    <TextView
+        android:id="@+id/txtTextViewResultadoIMC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Seu peso Ideal:" />
+
+    <TextView
+        android:id="@+id/txtTextViewResultadoAnalise"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Analise:" />
+
+</LinearLayout>
