@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity" >
+
+    <ToggleButton
+        android:id="@+id/toggleButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="verificaEnabled"
+        android:text="ToggleButton"
+        android:textOff="Input: OFF"
+        android:textOn="Input: On" />
+
+    <EditText
+        android:id="@+id/pesoTerra"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:enabled="false"
+        android:hint="Peso na Terra"
+        android:inputType="none|number|numberDecimal" />
+
+    <RadioGroup
+        android:id="@+id/rbPlanetas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/rbMercurio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:enabled="true"
+            android:text="Mercúrio" />
+
+        <RadioButton
+            android:id="@+id/rbVenus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:enabled="true"
+            android:text="Vênus" />
+
+        <RadioButton
+            android:id="@+id/rbMarte"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Marte" />
+
+        <RadioButton
+            android:id="@+id/rbJupiter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Jupiter" />
+
+        <RadioButton
+            android:id="@+id/rbSaturno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Saturno" />
+
+        <RadioButton
+            android:id="@+id/rbUrano"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Urano" />
+
+        <RadioButton
+            android:id="@+id/rbNetuno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Netuno" />
+
+    </RadioGroup>
+
+    <ImageView
+        android:id="@+id/imgImc"
+        android:layout_width="348dp"
+        android:layout_height="136dp"
+        app:srcCompat="@drawable/terra" />
+
+    <TextView
+        android:id="@+id/txtTextViewResultadoPeso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Seu peso em:"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
