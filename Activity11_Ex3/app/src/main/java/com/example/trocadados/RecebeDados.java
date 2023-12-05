@@ -16,7 +16,7 @@ private TextView txtV1,txtV2,txtV3, txtTriangulo;
         txtV1 = findViewById(R.id.textViewV1);
         txtV2 = findViewById(R.id.textViewV2);
         txtV3 = findViewById(R.id.textViewV3);
-        txtTriangulo = findViewById(R.id.textViewTriangulo);
+        txtTriangulo = findViewById(R.id.textViewTipoTriangulo);
 
         int v1,v2,v3;
         String tipoTriangulo;
@@ -31,7 +31,7 @@ private TextView txtV1,txtV2,txtV3, txtTriangulo;
         txtV1.setText("Lado1: "+v1);
         txtV2.setText("Lado2: "+v2);
         txtV3.setText("Lado3: "+v3);
-        txtTriangulo.setText("Tipo do Triangulo: "+tipoTriangulo);
+        txtTriangulo.setText(""+tipoTriangulo);
 
     }
 }

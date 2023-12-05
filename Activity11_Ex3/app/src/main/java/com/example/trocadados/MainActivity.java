@@ -30,13 +30,35 @@ public class MainActivity extends AppCompatActivity {
                                       @Override
                                       public void onClick(View v){
 Intent intent=new Intent(getApplicationContext(),RecebeDados.class);
+String tipoTriangulo;
                                           int v1Int,v2Int,v3Int;
                                           v1Int = Integer.parseInt(v1Input.getText().toString());
                                            v2Int = Integer.parseInt(v2Input.getText().toString());
                                           v3Int = Integer.parseInt(v3Input.getText().toString());
+                                          if(v1Int<=0 || v2Int<=0 || v3Int<=0)
+                                              tipoTriangulo=("Input Invalido");
+                                          else if(v1Int>=(v2Int+v3Int) || v3Int>=(v2Int+v1Int) || v2Int>=(v1Int+v3Int))
+                                              tipoTriangulo=("Não");
+                                          else{
+                                              tipoTriangulo=("Sim");
+                                          }
+
+                                          /*else if(v1Int==v2Int && v2Int==v3Int)
+                                              tipoTriangulo=("Triangulo Equilatero");
+                                          else if(((v1Int*v1Int)+(v2Int*v2Int))==(v3Int*v3Int) || ((v1Int*v1Int)+(v3Int*v3Int))==(v2Int*v2Int) || ((v3Int*v3Int)+(v2Int*v2Int))==(v1Int*v1Int))
+                                              tipoTriangulo=("Triangulo Retângulo");
+                                          else if(v1Int!=v2Int && v2Int!=v3Int && v3Int!=v1Int)
+                                              tipoTriangulo=("Triangulo Escaleno");
+                                          else if(v1Int==v2Int || v3Int==v1Int || v3Int==v2Int)
+                                              tipoTriangulo=("Triangulo Isosceles");
+
+                                          else{
+                                              tipoTriangulo=("Input Invalido");
+                                          }*/
 intent.putExtra("v1",v1Int);
 intent.putExtra("v2",v2Int);
 intent.putExtra("v3",v3Int);
+intent.putExtra("tipoTriangulo",tipoTriangulo);
 startActivity(intent);                               }
         }
 
