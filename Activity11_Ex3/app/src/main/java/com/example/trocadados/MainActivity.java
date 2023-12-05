@@ -43,18 +43,6 @@ String tipoTriangulo;
                                               tipoTriangulo=("Sim");
                                           }
 
-                                          /*else if(v1Int==v2Int && v2Int==v3Int)
-                                              tipoTriangulo=("Triangulo Equilatero");
-                                          else if(((v1Int*v1Int)+(v2Int*v2Int))==(v3Int*v3Int) || ((v1Int*v1Int)+(v3Int*v3Int))==(v2Int*v2Int) || ((v3Int*v3Int)+(v2Int*v2Int))==(v1Int*v1Int))
-                                              tipoTriangulo=("Triangulo Retângulo");
-                                          else if(v1Int!=v2Int && v2Int!=v3Int && v3Int!=v1Int)
-                                              tipoTriangulo=("Triangulo Escaleno");
-                                          else if(v1Int==v2Int || v3Int==v1Int || v3Int==v2Int)
-                                              tipoTriangulo=("Triangulo Isosceles");
-
-                                          else{
-                                              tipoTriangulo=("Input Invalido");
-                                          }*/
 intent.putExtra("v1",v1Int);
 intent.putExtra("v2",v2Int);
 intent.putExtra("v3",v3Int);
