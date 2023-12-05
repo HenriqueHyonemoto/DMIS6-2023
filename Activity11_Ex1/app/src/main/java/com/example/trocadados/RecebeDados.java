@@ -27,6 +27,6 @@ private TextView txtV1,txtV2,txtV3;
 
         txtV1.setText("Valor1: "+v1);
         txtV2.setText("Valor2: "+v2);
-        txtV3.setText("Valor2: "+v3);
+        txtV3.setText("Valor3: "+v3);
     }
 }
